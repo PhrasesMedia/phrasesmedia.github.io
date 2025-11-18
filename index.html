@@ -1,19 +1,172 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Phrases Media</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phrases Media — Tools That Make Life Easier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fafafa;
+            color: #333;
+        }
 
-  <!-- Google AdSense: paste your script BELOW this comment -->
-  <!-- Example (DON'T copy this one, use your real script):
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX"
-          crossorigin="anonymous"></script>
-  -->
+        header {
+            background: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #222;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            color: #222;
+        }
+
+        .tool-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .tool {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+        }
+
+        .tool h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background: #111;
+            color: white;
+        }
+
+        @media(max-width: 600px) {
+            .tool-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3989970356829721"
-     crossorigin="anonymous"></script>
 <body>
-  <h1>Phrases Media</h1>
-  <p><a href="/redundancy-ray/">Go to Redundancy Ray</a></p>
+
+<header>
+    <h1>Phrases Media</h1>
+    <p>Simple tools built to help people every day.</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="tools.html">Tools</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy</a>
+</nav>
+
+<div class="container">
+    <h2>Welcome</h2>
+    <p>
+        Phrases Media is a collection of practical tools designed to help with real-life
+        situations — from redundancy calculations to parental leave planning, flowchart creation,
+        travel time estimates, and more. Each tool is built with one goal: make something that
+        normally feels complicated feel simple.
+    </p>
+
+    <h2>Featured Tools</h2>
+
+    <div class="tool-list">
+
+        <div class="tool">
+            <h3>Redundancy Ray</h3>
+            <p>
+                A fast and friendly redundancy payout calculator that breaks down payments,
+                tax, and mortgage runway. Built for Australians wanting clarity during stressful times.
+            </p>
+            <a href="https://phrasesmedia.github.io/redundancyray" target="_blank">Open tool →</a>
+        </div>
+
+        <div class="tool">
+            <h3>BabyPay</h3>
+            <p>
+                A simple planner for government parental leave, employer leave, and 
+                after-tax income. Helps new parents understand their upcoming budget.
+            </p>
+            <a href="https://phrasesmedia.github.io/babypay" target="_blank">Open tool →</a>
+        </div>
+
+        <div class="tool">
+            <h3>Simple Flow</h3>
+            <p>
+                Create clean flowcharts automatically while you type steps. Fast, easy,
+                and perfect for process mapping.
+            </p>
+            <a href="https://phrasesmedia.github.io/simpleflow" target="_blank">Open tool →</a>
+        </div>
+
+        <div class="tool">
+            <h3>AfterTaxTim</h3>
+            <p>
+                Instantly converts salaries on job listings into after-tax income. 
+                Works in real time on Seek and other job sites.
+            </p>
+            <a href="#" target="_blank">Open extension →</a>
+        </div>
+
+        <div class="tool">
+            <h3>Roster Mate</h3>
+            <p>
+                A helpful roster viewer with pay-day highlights and a clean 7-week cycle.
+            </p>
+            <a href="#" target="_blank">Open tool →</a>
+        </div>
+
+        <div class="tool">
+            <h3>CommuterCraig</h3>
+            <p>
+                Compare car and public transport travel times with step-by-step detail.
+            </p>
+            <a href="#" target="_blank">Open tool →</a>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    © 2025 Phrases Media — All rights reserved.
+</footer>
+
 </body>
 </html>
