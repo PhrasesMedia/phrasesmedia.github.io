@@ -16,7 +16,7 @@
         header {
             background: #111;
             color: white;
-            padding: 20px;
+            padding: 40px 20px;
             text-align: center;
         }
 
@@ -44,7 +44,7 @@
             line-height: 1.6;
         }
 
-        h1, h2 {
+        h2 {
             color: #222;
         }
 
@@ -60,6 +60,16 @@
             padding: 15px;
             border-radius: 6px;
             border: 1px solid #ddd;
+            display: flex;
+            gap: 15px;
+            align-items: flex-start;
+        }
+
+        .tool img {
+            width: 48px;
+            height: 48px;
+            border-radius: 8px;
+            object-fit: cover;
         }
 
         .tool h3 {
@@ -108,31 +118,43 @@
 
     <div class="tool-list">
 
+        <!-- Redundancy Ray -->
         <div class="tool">
-            <h3>Redundancy Ray</h3>
-            <p>
-                A fast and friendly redundancy payout calculator that breaks down payments,
-                tax, and mortgage runway. Built for Australians wanting clarity during stressful times.
-            </p>
-            <a href="https://phrasesmedia.github.io/redundancy-ray/" target="_blank">Open tool →</a>
+            <img src="ray.png" alt="Redundancy Ray">
+            <div>
+                <h3>Redundancy Ray</h3>
+                <p>
+                    A fast and friendly redundancy payout calculator that breaks down payments,
+                    tax, and mortgage runway. Built for Australians wanting clarity during stressful times.
+                </p>
+                <a href="https://phrasesmedia.github.io/redundancy-ray/" target="_blank">Open tool →</a>
+            </div>
         </div>
 
+        <!-- BabyPay -->
         <div class="tool">
-            <h3>BabyPay</h3>
-            <p>
-                A simple planner for government parental leave, employer leave, and 
-                after-tax income. Helps new parents understand their upcoming budget.
-            </p>
-            <a href="https://phrasesmedia.github.io/BabyPayApp/" target="_blank">Open tool →</a>
+            <img src="icon.png" alt="BabyPay">
+            <div>
+                <h3>BabyPay</h3>
+                <p>
+                    A simple planner for government parental leave, employer leave, and 
+                    after-tax income. Helps new parents understand their upcoming budget.
+                </p>
+                <a href="https://phrasesmedia.github.io/BabyPayApp/" target="_blank">Open tool →</a>
+            </div>
         </div>
 
+        <!-- Simple Flow -->
         <div class="tool">
-            <h3>Simple Flow</h3>
-            <p>
-                Create clean flowcharts automatically while you type steps. Fast, easy,
-                and perfect for process mapping and documentation.
-            </p>
-            <a href="https://phrasesmedia.github.io/simple-flow/" target="_blank">Open tool →</a>
+            <img src="simpleflow.png" alt="Simple Flow">
+            <div>
+                <h3>Simple Flow</h3>
+                <p>
+                    Create clean flowcharts automatically while you type steps. Fast, easy,
+                    and perfect for process mapping and documentation.
+                </p>
+                <a href="https://phrasesmedia.github.io/simple-flow/" target="_blank">Open tool →</a>
+            </div>
         </div>
 
     </div>
